@@ -1,6 +1,13 @@
+import Navbar from "./Navbar";
+
+
 function Header() {
     return ( 
-        <h1>Header</h1>
+        <header>
+            <span>Olá, visitante!</span>
+            <h1>Bem-vindo ao Metflix!</h1>
+            <Navbar/>
+        </header>
      );
 }
 
