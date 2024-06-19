@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-thompson': '#034562'
+        'primary-thompson': '#034562',
+        'secondary-thompson': '#a10027'
       }
     },
   },
