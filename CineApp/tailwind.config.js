@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         'primary-thompson': '#034562',
-        'secondary-thompson': '#a10027'
+        'secondary-thompson': '#a10027',
+        'tertiary-thompson' : '#EBEBEB',
+        'quarternary-thompson' : '#DADADA',
+        'pentenary-thompson' : '#383838'
       }
     },
   },

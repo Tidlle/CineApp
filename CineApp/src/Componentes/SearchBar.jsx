@@ -1,5 +1,3 @@
-// Componentes/SearchBar.jsx
-
 import React, { useState } from 'react';
 
 function SearchBar({ onSearch }) {
@@ -15,13 +13,13 @@ function SearchBar({ onSearch }) {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className= " flex items-center ">
             <input
                 type="text"
                 placeholder="Buscar filmes..."
                 value={searchTerm}
                 onChange={handleChange}
-                className="px-2 py-1 border rounded"
+                className="w-screen h-10 px-3 py-1 rounded-lg bg-tertiary-thompson border border-gray-300 focus:outline-none focus:border-blue-500 max-w-screen-md   "
             />
             <button type="submit" className="ml-2 bg-blue-500 text-white px-3 py-1 rounded">
                 Buscar

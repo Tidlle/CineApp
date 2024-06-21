@@ -27,15 +27,15 @@ function Filmes() {
     return (
         <div className="max-w-5xl mx-auto px-4 mt-4">
             <h1 className="text-2xl font-bold mb-4">Filmes</h1>
-            <div className="flex justify-center mb-4">
+            <div className="flex justify-center  mb-4">
                 <SearchBar onSearch={handleSearch} /> {/* Barra de pesquisa centralizada */}
             </div>
             <div className="listaFilmes flex flex-row gap-3 flex-wrap">
                 {renderFilmes.map((filme) => (
                     <div className="card-filme" key={filme.id}>
-                        <img src={`https://image.tmdb.org/t/p/w92/${filme.poster_path}`} alt={filme.title} />
-                        <h1>{filme.title}</h1>
-                        <Link to={`/filmes/${filme.id}`} className="bg-purple-800">Saiba Mais</Link>
+                        <img src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} alt={filme.title} />
+                        <h1 className='font-semibold mb-2'>{filme.title}</h1>
+                        <Link to={`/filmes/${filme.id}`} className="bg-secondary-thompson text-black ml-[218px] p-[2px] px-[4px] rounded-md ">Saiba Mais</Link>
                     </div>
                 ))}
             </div>
