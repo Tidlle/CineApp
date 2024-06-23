@@ -1,0 +1,51 @@
+[
+    {
+    "title": "Duna",
+    "image": "duna.webp",
+    "text": [
+    "Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo."
+    ],
+    "tags": ["cinema", "podcast"]
+    },
+    {
+    "title": "Interestelar",
+    "image": "interstellar.jpg",
+    "text": [
+    "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial..."
+    ],
+    "tags": ["cinema", "discord"]
+    },
+    {
+    "title": "Oppenheimer",
+    "image":"oppenheimer.jpg",
+    "text": [
+    "O físico J. Robert Oppenheimer trabalha com uma equipe de cientistas durante o Projeto Manhattan, levando ao desenvolvimento da bomba atômica e os eventos de Hiroshima e Nagasaki."
+    ],
+    "tags": ["cinema", "desafio", "criação"]
+    },
+    {
+        "title": "Barbie",
+        "image": "barbie.png",
+        "text": [
+        "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade."
+        ],
+        "tags": ["cinema", "podcast"]
+        },
+        {
+        "title": "Top gun: Maverick",
+        "image": "topgun.webp",
+        "text": [
+        "Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, Pete Maverick Mitchell está de volta, rompendo os limites como um piloto de testes corajoso..."
+        ],
+        "tags": ["cinema", "discord"]
+        },
+        {
+        "title": "Batman",
+        "image":"batman.webp",
+        "text": [
+        "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece..."
+        ],
+        "tags": ["cinema", "desafio", "criação"]
+        }
+    ]
+        
